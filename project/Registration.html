@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="registeration.css">
+</head>
+<nav><ul>
+    <li class="logo"><img src="LOGO1.png" alt="" width="200px" height="auto"></li>
+    <li><a href="http://" target="_blank" rel="noopener noreferrer">Home</a></li>
+    <li>Gallary</li>
+    <li>Events</li>
+    <li>Form</li>
+    <li>Attendance</li>
+    <li>News</li>
+    
+   </ul></nav>
+<body>
+    
+    <form action="Registration.php" method="post">
+        <table class="f1">
+            <th colspan="1"> Sports Regestration  Form
+               <tr>
+                <td>SIGN UP!</td>
+               </tr>
+                
+            </th>
+          <div class="form">  <tr>
+            <td>NAME <input type="text" value="name" placeholder="Your name" name="Name">
+                Date of Birth<input type="date" value="Dob" placeholder="00/00/00" name="Date_of_Birth">
+           <fieldset class="Gender"> GENDER <input type="radio" id="Male" name="Gender" value="M" name="Gender">
+                <label for="Male">Male</label><br>
+                <input type="radio" id="Female" name="Gender" value="F">
+                <label for="Female">Female</label><br>
+                <input type="radio" id="Others" name="Gender" value="O">
+                <label for="Others">Others</label></fieldset></td>
+        </tr>
+        
+        <tr>
+            <td> GR NO <input type="number" value="Enrollment" placeholder="12349" name="Gr_no">
+                 ENROLLMENT NO <input type="number" value="Enrollment" placeholder="12349" name="En_no">
+                MOBILE NO <input type="number" name="Mobile_no"></td>
+        </tr>
+        
+        <tr>
+            <td> SELECT SPORTS <select name="Sports">
+                <option name="Sports"  value="Cricket">Cricket</option>
+                <option name="Sports" value="Football">Football</option>
+                <option name="Sports" value="Badminton">Badmibnton</option>
+                <option name="Sports" value="Kabaddi">Kabaddi</option>
+                <option name="Sportsl" value="Volleyball">Vooleyball</option>
+                <option name="Sports" value="Tabletenis">TableTennis</option>
+            </select> </td>
+        </tr>
+        
+   <tr>
+   <td> Department<input type="text" name="Department" id="Department">
+    SEMESTER<input type="text" name="Semester" id="Semester"></td>
+   </tr>
+   <tr>
+    <td class="form-control"> Email<input type="email" value="Email" placeholder="xyx@gmail.com" name="Email">
+         PASSWORD <input type="password" value="password" placeholder="password" name="password">
+        </td>
+
+</tr>
+<tr><td>
+    <input class="reset" type="reset" name="Reset"></input>
+<input class="submit" type="submit" name="Submit"></input>
+</td></tr>
+   
+  </div>
+        </table>
+    </form>
+    <p>thanks for registering the form in our sports</p>
+</body>
+</html>

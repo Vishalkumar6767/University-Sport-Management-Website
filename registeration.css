@@ -1,0 +1,94 @@
+
+
+ 
+
+img{
+  position: sticky;
+}
+header{
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: aliceblue;
+  width: 100%;
+  position: sticky;
+}
+
+
+body{
+  margin-top: 10px;
+    background-color: aquamarine;
+    background-position: 10px 10px 10px 10px;
+}
+
+.Gender{
+  margin-top: 10px;
+ padding-top: 10px;
+}
+.form{
+   
+    border-radius: 15px ;
+    
+    border-color: rgb(26, 30, 30);
+    margin-left: 30px;
+    border-radius: 10px;
+   
+}
+.f1{
+    margin-top: 120px;
+    margin-left: 250px;
+    background-color: rgb(222, 244, 247);
+    border-style: groove;
+    text-shadow: 10px;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    margin-right: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+   
+  }
+  th,td{
+    background-color: rgb(253, 252, 250);
+  }
+  input{
+    width: 100%;
+    
+  }
+  nav{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin-right: 10px;
+
+}
+nav, ul li{
+    list-style: none;
+    float: left;
+    
+    background-color: aliceblue;
+    fill-opacity: 2.5;
+  
+}
+ul li{
+  padding-left: 40px;
+  padding-right: 40px;
+   
+    text-decoration: none;
+}
+.logo{
+    background-color: aliceblue;
+    font-display: none;
+}
+.submit{
+  margin-top: 10px;
+}
+.reset{
+  margin-top: 10px;
+}
+form table{
+  border-radius: 5px;
+}
